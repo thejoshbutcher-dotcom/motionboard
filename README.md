@@ -53,3 +53,7 @@ mb brands
 ```
 
 The engine is built from the Motionboard app's source (`npm run skill:build` in the app repo).
+
+## License
+
+MIT © 2026 Josh Butcher. See [LICENSE](LICENSE).

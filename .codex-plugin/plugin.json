@@ -2,21 +2,36 @@
   "name": "motionboard",
   "version": "1.0.0",
   "description": "Original, editable motion graphics from a script or a video clip: full animation or timed B-roll, native 16:9, 9:16 and square, brand kits, MP4 or transparent ProRes for Final Cut.",
-  "author": { "name": "Josh Butcher", "url": "https://github.com/thejoshbutcher-dotcom" },
+  "author": {
+    "name": "Josh Butcher",
+    "url": "https://github.com/thejoshbutcher-dotcom"
+  },
   "homepage": "https://github.com/thejoshbutcher-dotcom/motionboard",
   "repository": "https://github.com/thejoshbutcher-dotcom/motionboard",
-  "keywords": ["motion graphics", "video", "animation", "b-roll", "final cut", "skill"],
+  "keywords": [
+    "motion graphics",
+    "video",
+    "animation",
+    "b-roll",
+    "final cut",
+    "skill"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Motionboard",
     "shortDescription": "Original motion graphics from a script or clip.",
     "longDescription": "Plan and design original animated scenes from a script, voiceover or video clip, as full animation or B-roll timed over the footage, in 16:9, 9:16 or square and in your brand kit. Renders MP4 or transparent ProRes 4444, and opens a visual editor that stays in sync with the project.",
     "category": "Creativity",
-    "capabilities": ["Read", "Write", "Execute"],
+    "capabilities": [
+      "Read",
+      "Write",
+      "Execute"
+    ],
     "defaultPrompt": [
       "Make vertical motion graphics for this script with Motionboard.",
       "Add Motionboard B-roll graphics over this clip.",
       "Make an animated lower third for this interview."
     ]
-  }
+  },
+  "license": "MIT"
 }
