@@ -1,0 +1,10 @@
+#!/bin/bash
+# Motionboard engine. The first run installs its Node dependencies and a headless browser (once, a few minutes).
+set -e
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+command -v node >/dev/null || { echo "motionboard: Node.js 18 or newer is required (https://nodejs.org)" >&2; exit 1; }
+if [ ! -f "$DIR/node_modules/.mb-ready" ]; then
+  echo "motionboard: first run, installing the engine (once)…" >&2
+  (cd "$DIR" && npm install --omit=dev --no-audit --no-fund --loglevel=error >&2 && npx --yes playwright install chromium >&2 && touch node_modules/.mb-ready)
+fi
+exec node "$DIR/motionboard.cjs" "$@"

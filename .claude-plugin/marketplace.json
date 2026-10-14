@@ -1,0 +1,8 @@
+{
+  "name": "motionboard",
+  "description": "Motionboard: original, editable motion graphics from a script or a video clip.",
+  "owner": { "name": "Josh Butcher", "url": "https://github.com/thejoshbutcher-dotcom" },
+  "plugins": [
+    { "name": "motionboard", "source": "./", "description": "Turn a script or clip into original animated scenes; render MP4 or transparent ProRes; edit them visually." }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "motionboard-engine",
+  "version": "1.0.3",
+  "private": true,
+  "description": "Motionboard engine for AI agents (built from the Motionboard app)",
+  "dependencies": {
+    "playwright": "1.62.1",
+    "ffmpeg-static": "5.3.0"
+  }
+}

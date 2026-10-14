@@ -1,0 +1,6 @@
+node_modules/
+skills/motionboard/engine/node_modules/
+*.snapshots/
+renders/
+work/
+.DS_Store
